@@ -23,7 +23,7 @@ Permite registrar entrenamientos, hacer seguimiento del progreso de cinturón, l
 
 ## Arquitectura
 
-El proyecto sigue los principios SOLID y las prácticas de Código Limpio (Robert C. Martin).
+El proyecto sigue los principios SOLID y las prácticas de Código Limpio (Robert C. Martin) aplicados de forma incremental durante el desarrollo.
 
 ## Autor
 
