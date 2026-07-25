@@ -1,17 +1,30 @@
-# app1
+# Road to Black 🥋
 
-A new Flutter project.
+App de seguimiento de entrenamientos de Brazilian Jiu-Jitsu, desarrollada en Flutter.
 
-## Getting Started
+Permite registrar entrenamientos, hacer seguimiento del progreso de cinturón, llevar un perfil de luchador con estadísticas, un calendario visual de entrenamientos y un récord de peleas (victorias/derrotas).
 
-This project is a starting point for a Flutter application.
+## Funcionalidades
 
-A few resources to get you started if this is your first Flutter project:
+- Registro de entrenamientos (técnica trabajada, consejos del profesor)
+- Calendario visual con historial por día
+- Perfil de luchador con foto, cinturón y grados
+- Stats tipo videojuego (Ataque, Defensa, IQ de pelea, Fuerza, Agilidad) que suben automáticamente según las palabras clave de cada entrenamiento
+- Récord de peleas con fecha y resultado
+- Persistencia local de todos los datos
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Tecnologías
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Flutter / Dart**
+- `shared_preferences` — persistencia local
+- `image_picker` — foto de perfil
+- `table_calendar` — calendario visual
+- `google_fonts` — tipografía
+
+## Arquitectura
+
+El proyecto sigue los principios SOLID y las prácticas de Código Limpio (Robert C. Martin).
+
+## Autor
+
+Desarrollado por [Salvador Callealta Vega](https://github.com/s4lva34) como proyecto de aprendizaje de Flutter.
